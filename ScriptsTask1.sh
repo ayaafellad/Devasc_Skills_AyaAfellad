@@ -11,8 +11,7 @@ git commit -m "Initial commit"
 #Command for pushing changes to GitHub:
 git push -u origin master
 
-#commands to add, commit, and push changes:
-
+#commands to add, commit, and push "Task 1 -- Github Skills Test"
 git add .
 git commit -m "Task X: "Task 1 -- Github Skills Test"
 git push

@@ -12,7 +12,7 @@ GitHub Skills Test
 
 ### Task Implementation
 1. Executed `git init` to initialize a local Git repository.
-2. Connected the local repository to the GitHub repository using `git remote add origin https://github.com/yourusername/Devasc_Skills_YourInitals.git`.
+2. Connected the local repository to the GitHub repository using `git remote add origin https://github.com/ayaafellad/Devasc_Skills_AyaAfellad.git`
 3. Committed changes using `git add .` and `git commit -m "Initial commit"`.
 4. Pushed the changes to GitHub using `git push -u origin master`.
 

@@ -8,7 +8,7 @@ GitHub Skills Test
 ### Task Preparation
 1. Created a folder named "Devasc_Skills."
 2. Initialized a Git repository in the "Devasc_Skills" folder.
-3. Created a GitHub repository named "Devasc_Skills_YourInitals" (replace "YourInitals" with your initials).
+3. Created a GitHub repository named "Devasc_Skills_AyaAfellad".
 
 ### Task Implementation
 1. Executed `git init` to initialize a local Git repository.

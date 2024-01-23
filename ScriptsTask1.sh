@@ -16,6 +16,6 @@ git add .
 git commit -m "Task X: "Task 1 -- Github Skills Test"
 git push
 
-# command to add a tag to a specific commit:
+#command to add a tag to a specific commit:
 tag -a task1 -m "task1_Github_Skills_Test"
 git push origin task1

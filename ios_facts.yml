@@ -1,0 +1,21 @@
+---
+- name: Collect information and configure virtual router
+  hosts: Router_Aya
+  gather_facts: true
+  connection: network_cli
+  tasks:
+    - name: Collect information about IOS version
+      cisco.ios.ios_command:
+        commands: show version
+      register: ios_version_output
+
+    - name: Gather L3 interfaces resource and minimal legacy facts
+      cisco.ios.ios_facts:
+        gather_subset: min
+        gather_network_resources: l3_interfaces
+      register: l3_interfaces_output
+
+    - name: Configure logging buffer size
+      cisco.ios.ios_command:
+        commands:
+          - logging buffered 5000
